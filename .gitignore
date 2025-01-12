@@ -1,0 +1,6 @@
+*.db
+*.spec
+*.csv
+*.xlsx
+build
+dist

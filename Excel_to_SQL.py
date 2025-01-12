@@ -4,7 +4,6 @@ import sqlite3
 exit = False
 
 while exit != True:
-
     try:
         sql_file = input("Enter SQl filename:")
         excel_file = input("Enter Excel Filename:")

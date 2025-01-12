@@ -13,7 +13,6 @@ while exit != True:
 
         csv_df = pd.read_csv(f'{csv_file}.csv')
 
-
         csv_df.to_sql(csv_file,conn,if_exists='replace',index=False)
 
     except Exception as error:
